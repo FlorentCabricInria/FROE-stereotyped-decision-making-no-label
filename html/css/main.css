@@ -381,6 +381,7 @@ button {
     background-color: #EEEEEE;/*#4CAF50; /* Green */
     /*border: none;*/
     /*color: black;*/
+    margin: 1.5rem 0;
     padding: 3px 20px;
     text-align: center;
     text-decoration: none;

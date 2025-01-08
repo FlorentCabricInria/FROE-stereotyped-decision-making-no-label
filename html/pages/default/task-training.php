@@ -18,7 +18,7 @@
         : grade group (horizontal axis), gender (color) and performance level (size of dots) <br></p>
     <p> This training will help you understand and manipulate the information and interactive features we provide to help you make the most informed decision possible.
     To allocate the money, you will use two sliders (one for reducing gender inequity and the other one for rewarding the performance).</p>
-        <button onclick="seeSliders()">Add the sliders</button>
+        <button class="buttonNext" onclick="seeSliders()">Add the sliders</button>
     </div>
     <div id="learnSlidersText" hidden>
     <!--    <p> In this training part, we will ask you to perform 3 allocation tasks using  </p>-->
@@ -219,6 +219,6 @@
     document.getElementById("textTraining1").hidden = true;
     document.getElementById("learnSlidersText").hidden = false;
     document.getElementById("learnSliders").hidden = false;
-    document.getElementById("titleTraining").innerText = "Training part1: the sliders."
+    document.getElementById("titleTraining").innerText = "Training part 1: the sliders"
   }
 </script>

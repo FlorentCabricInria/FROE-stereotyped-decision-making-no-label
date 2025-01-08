@@ -10,7 +10,7 @@
         explore the full range of possible decisions.
         <br>
         Click on the button below to explore these two features.</p>
-        <button id="wantToSeeTheFeatures" style="float: none"> Add 1<sup>st</sup> feature: Possible impact on salaries</button>
+        <button class="buttonNext" id="wantToSeeTheFeatures" style="float: none; margin: 0"> Add 1<sup>st</sup> feature: Possible impact on salaries</button>
 
     </div>
     <div id="point1" hidden="true" style="max-width: 100%; height: auto;width: 100%;float: left;">
@@ -18,8 +18,9 @@
         <span> By allocating the budget to each objective you will increase the salaries of some of the employees. We will represent the maximum salary a person can achieve (by either objective) by a thin gray line.
         The maximum limit of each employee’s line represents the maximum salary that this person can achieve among all the possible decisions.
         The grey lines will be visible <b> only when you will hover the sliders with the cursor of your mouse.</b>
- </span> <br>
-        <button id="interactionVisBtn" style="float:none">Add 2<sup>nd</sup> feature: Interactivity</button>
+ </span>
+        <br>
+        <button class="buttonNext" id="interactionVisBtn" style="float:none">Add 2<sup>nd</sup> feature: Interactivity</button>
         <br>
     </div>
     <div id="point2" hidden="true" style="max-width: 100%; height: auto;width: 100%;float: left;">

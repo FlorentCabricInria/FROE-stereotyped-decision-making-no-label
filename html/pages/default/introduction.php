@@ -19,6 +19,7 @@
   var child = document.createElement('button')
   child.innerText = 'No, I disagree.'
   child.id = 'noconsent'
+  child.className ='buttonNext'
   child.onclick = function () {
     $('#consent_2').hide().promise().done(() => $('#endDisagreement_12').show())
 
@@ -29,7 +30,7 @@
   verifySize()
   //child.innerHTML("BONJOURURURUR");
 </script>
-<h1 id="titleExplanation"> Background Explanation</h1>
+<h1 id="titleExplanation">Background explanation</h1>
 <div id="scroll-warning_3" class="alert alert-warning alert-dismissible" hidden>
     <span>Some content may be off-screen. Please scroll down to see the rest of the content.</span>
 </div>
@@ -58,7 +59,7 @@
     *grade groups= grouping job positions with similar skills, knowledge and experience and establishing job duties and levels of authority for that group
     <br> -->
     <br>
-    <button id="firstStageButton">Proceed if you have a clear understanding of the scenario.</button>
+    <button class="buttonNext" id="firstStageButton">Proceed if you have a clear understanding of the scenario.</button>
 </div>
 <div id="secondStage" style="text-align: left" hidden="true">
     <!--    <h1> Background Explanation</h1>-->
@@ -68,7 +69,7 @@
     <br>
     <svg id="firstChart"></svg>
     <br>
-    <button id="secondStageButton"> Next</button>
+    <button class="buttonNext" id="secondStageButton"> Next</button>
 </div>
 <div id="thirdStage" style="text-align: left" hidden="true">
     <!--    <h1> Background Explanation</h1>-->
@@ -86,13 +87,13 @@
     </ul>
     <svg id="secondChart"></svg>
     <br>
-    <button id="thirdStageButton"> Next</button>
+    <button class="buttonNext" id="thirdStageButton"> Next</button>
 </div>
 <div id="fourthStage" style="text-align: left" hidden="true">
     Please, approximate <span style="font-weight: bold; color: #98D462;"> Robin </span>'s salary (&#177; 2K) (the <span
         style="font-weight: bold; color: #98D462;">  green dot </span>) and click on next:
     <input id="inputTestRobin" type="text" placeholder="digits only"/> </input>
-    <button id="fourthStageButton"> Next</button>
+    <button class="buttonNext" id="fourthStageButton"> Next</button>
     <br>
     <span id="checkingValue" style="font-weight: bold; color: #e30202;"></span>
 </div>
@@ -116,7 +117,7 @@
     </ul>
     </p>
 
-    <button id="fifthStageButton"> Next</button>
+    <button class="buttonNext" id="fifthStageButton"> Next</button>
 </div>
 <div id="sixthStage" style="text-align: left" hidden="true">
     <!--    <h1> Grade groups:</h1>-->
@@ -130,7 +131,7 @@
     <div style="display: flex">
         <svg id="chartGradeGroups"></svg>
         <br>
-        <button id="sixthStageButton"> Add grade groups</button>
+        <button class="buttonNext" id="sixthStageButton"> Add grade groups</button>
         <div>
             <div id="seventhStage" style="text-align: left" hidden="true">
                 As you can see <span style="font-weight: bold; color: #F2B93F;"> Sam </span> belongs to
@@ -144,7 +145,7 @@
                 means that
                 the horizontal position of each employee will be moved slightly, to the left or to the right.
                 <br>
-                <button id="seventhStageButton" style="margin-top: 1.5rem">Add Jitter</button>
+                <button class="buttonNext" id="seventhStageButton" style="margin-top: 1.5rem">Add Jitter</button>
             </div>
             <div class="breakForSlider"></div>
             <br>
@@ -160,7 +161,7 @@
                 The employees inside the <span
                     style="font-weight: bold; color: #000000;">right rectangle </span>
                 belong to <span style="font-weight: bold; color: #000000;"> grade group C</span> <br>
-                <button id="eighthStageButton"> Next</button>
+                <button class="buttonNext" id="eighthStageButton"> Next</button>
             </div>
 
             <div id="ninethStage" style="text-align: left" hidden="true">
@@ -186,7 +187,7 @@
                 </fieldset>
                 <br>
                 <span id="checkingValueGradeGroup" style="font-weight: bold; color: #e30202;"></span>
-                <button id="ninethStageButton"> Next</button>
+                <button class="buttonNext" id="ninethStageButton"> Next</button>
             </div>
         </div>
     </div>
@@ -237,7 +238,8 @@
                     High performance will be represented by a large circle.
                 </div>
             </div>
-            <button id="tenthStageButton"> Add the performance</button>
+            <br />
+            <button class="buttonNext" id="tenthStageButton"> Add the performance</button>
             <div id="eleventhStage" style="text-align: left" hidden="true">
                 <br>
                 <span style="font-weight: bold; color: #0096c9;">Charlie</span> is represented by the largest size of
@@ -247,7 +249,8 @@
                 <span style="font-weight: bold; color: #F2B93F;">Sam</span> is represented by the smallest size of
                 circle and
                 therefore Sam's performance is <span style="font-weight: bold; color: #F2B93F;">low</span>
-                <button id="eleventhStageButton">Proceed to next stage</button>
+                <br />
+                <button class="buttonNext" id="eleventhStageButton">Proceed to next stage</button>
             </div>
             <div id="twelvethStage" style="text-align: left" hidden="true">
                 <br>
@@ -271,14 +274,15 @@
                 </fieldset>
                 <br>
                 <span id="checkingValuePerf" style="font-weight: bold; color: #e30202;"></span>
-                <button id="twelvethStageButton"> Go to the next stage</button>
+
+                <button class="buttonNext" id="twelvethStageButton"> Go to the next stage</button>
             </div>
         </div>
     </div>
 </div>
 <div id="thirteenthStage" style="text-align: left" hidden="true">
 <!--    <h2>Comprehension check</h2>-->
-    This is the comprehension test. You will get two chances. If you fail on the second attempt, you will be immediately
+    This is the comprehension test. You will get two chances. If you fail on the second attempt, you will be
     redirected to Prolific with a CODE indicating CC_failed and we will ask that you return your submission.
     <!--    After studying, <span style="font-weight: bold; color: #0096c9;">Charlie</span>, <span-->
     <!--        style="font-weight: bold; color: #F2B93F;">Sam</span> and <span-->
@@ -304,15 +308,15 @@
             <span id="checkingSalaryJamie" style="font-weight: bold; color: #e30202;"></span>
             <div>
                 <input type="radio" id="salaryJamie3" name="salary-test-jamie" value="10000"/>
-                <label for="ggJamie3">10,000</label>
+                <label for="salaryJamie3">10,000</label>
             </div>
             <div>
                 <input type="radio" id="salaryJamie4" name="salary-test-jamie" value="32500"/>
-                <label for="ggJamie4">32,500</label>
+                <label for="salaryJamie4">32,500</label>
             </div>
             <div>
                 <input type="radio" id="salaryJamie5" name="salary-test-jamie" value="60000"/>
-                <label for="ggJamie5">60,000</label>
+                <label for="salaryJamie5">60,000</label>
             </div>
         </fieldset>
         <fieldset id="fieldset2" style="width: 15vw; min-width: 300px;float: left;padding: 6px 20px 20px 20px">
@@ -355,7 +359,7 @@
 
     </div>
     <br>
-    <button id="thirteenthStageButton"> Next</button>
+    <button class="buttonNext" id="thirteenthStageButton"> Next</button>
 </div>
 
 <script type="text/javascript" src="./html/js/visualizations/buttonbehaviours.js"></script>

@@ -126,7 +126,7 @@
                 <div class="boxForSlider">
                     <div id="divfordata"
                          style="display: inline-block;background: #f9f9f9;border-radius: 9px;padding-top: 1rem; ">
-                        <button id="addCurrentGenderPayGap"> Add the equal gender pay gap</button>
+                        <button class="buttonNext" id="addCurrentGenderPayGap"> Add the equal gender pay gap</button>
                       <div>
                         <span id="LineGenderPG" hidden="true">The current gender pay gap is: <br> <b><span
                                 id="TestGenderPG"> 5% </span></b>.
@@ -157,7 +157,7 @@
                       </div>
 
                         <hr id="lineTo" hidden="true">
-                        <button id="addPerformance" hidden="true">Add merit based information</button>
+                        <button class="buttonNext" style="margin: 0" id="addPerformance" hidden="true">Add merit based information</button>
                         <div id="performanceText" hidden="true"><span> Raises based on performance levels:</span>
                             <table>
                                 <tbody>

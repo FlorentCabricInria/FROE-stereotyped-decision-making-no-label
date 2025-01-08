@@ -151,7 +151,7 @@
             </tbody>
         </table>
         <div class="buttons" id="buttonForm">
-            <button id="submitScaleButton" class="submit">Submit</button>
+            <button class="buttonNext" id="submitScaleButton" class="submit">Submit</button>
             <br>
             <span id="ErrorMessageScale" style="color: darkred"></span>
         </div>
@@ -162,7 +162,7 @@
         </label>
         <textarea class="form-control" minlength="50" id="generalfeedback" rows="2"
                   cols="80" placeholder="This is the end of the study. Please, if you have any feedback, write in the text box below."></textarea>
-        <button onclick="saveForPA()"> Send your feedback and end the study</button>
+        <button class="buttonNext" onclick="saveForPA()"> Send your feedback and end the study</button>
     </div>
     <script type="text/javascript">
       function processScaleResults () {

@@ -125,7 +125,7 @@
             </tbody>
         </table>
         <div class="buttons" id="buttonForm">
-            <button id="submitScaleButton" class="submit">Submit</button> <br>
+            <button class="buttonNext" id="submitScaleButton" class="submit">Submit</button> <br>
             <span id="ErrorMessageScale" style="color: darkred"></span>
         </div>
     </form>
@@ -259,6 +259,8 @@
               measurements['color-used'] = 'stereotyped';
               measurements['pay-gap-direction'] = 'women-lower';
           }
+          measurements['time-spent-from-consent-to-end'] = parseFloat(measurements['lastClick'] - measurements['timestamp_2'])
+            measurements['time-spent-for-decision'] = parseFloat(measurements['timestamp_8'] - measurements['timestamp_taskbegin'])
           console.log("Color used: " + measurements['color-used'] + " and PG direction " + measurements['pay-gap-direction'])
           document.getElementById("ErrorMessageScale").innerHTML = "";
           document.getElementById("buttonForm").style.display ="none";

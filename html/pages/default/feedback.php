@@ -1,6 +1,6 @@
 <div id="row" xmlns="http://www.w3.org/1999/html">
     <body>
-    <h2>Questions regarding your decision and your role in your company</h2>
+    <h1>Questions regarding your decision and your role in your company</h1>
     <div> With your decision, the final gender pay gap is <span id="taskCurrentPayGapStimuli">
          </span> and your merit-based raises resulted in employees with low, medium and high performance evaluation getting a
         <span id="taskLowPerfStimuli" style="display: inline-block"> .... </span>% , a
@@ -46,7 +46,7 @@
             <div>
                 <label> <h5> Please explain the criteria you used to decide on how to allocate the money. (100 characters required) </h5>
                 </label>
-                <textarea onkeyup="countChar(this)" class="form-control" minlength="50" id="criteria" rows="2"
+                <textarea onkeyup="countChar(this)" class="form-control" minlength="100" id="criteria" rows="2"
                           cols="80" placeholder="Please explain the criteria you used to decide on how to allocate the money."></textarea>
                 <span id="charNumcriteria" style="color: darkred;">100 characters remaining</span>
             </div>

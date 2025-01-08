@@ -2,7 +2,7 @@
   <div class="col text-center">
     <button
       href="#"
-      class="btn btn-wider <?php echo $style;?>"
+      class="buttonNext btn btn-wider <?php echo $style;?>"
       id = "btn_<?php echo $id;?>"
 
     <?php if ($id != 'test-decision-making-study_8' && $id != 'welcome_1') {?>

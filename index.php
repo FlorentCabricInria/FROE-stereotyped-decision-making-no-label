@@ -52,13 +52,31 @@
     <br/><h1>This experiment requires at least a 100% zoom level</h1>
     <p id="zoom">Your current zoom is <span id=zoomValue></span>%.</p>
     <p>Please, zoom in the page until this message disappears.<br>
-      You can also press Ctrl+0 (on Windows or Linux) or Cmd+0 (on Macos) to reset the zoom.</p>
+      You can also press Ctrl+0 (on Windows or Linux) or Cmd+0 (on MacOS) to reset the zoom.</p>
   </div>
   <div id="dimension-message" class="wrong-message">
     <br/><h1>Your browser window does not fit the study screen</h1>
     <canvas id="windowsize" width="350px" height="200px"></canvas>
-    <p>It may be happening because your browser window is too small or the page is zoomed in.</p>
-    <p>Please resize your window until this message disappears or zoom out the page.</p>
+    <p>This can happen in three situations. Try the following solutions, starting with the first:</p>
+    <ol>
+      <li><b>By default, the operating system has a scale greater than 100% (most common).</b> Set the scale level of your operating system to 100% (125% may work too). Click on your operating system to see a tutorial (link will open in a new tab):
+      <a href="https://www.windowscentral.com/how-set-custom-display-scaling-setting-windows-10" target="_blank">Windows</a>,
+        <a href="https://discussions.apple.com/thread/253989091?sortBy=rank" target="_blank">Mac</a>,
+        <a href="https://help.ubuntu.com/stable/ubuntu-help/look-resolution.html.en" target="_blank">Linux (Ubuntu)</a>
+      </li>
+      <li><b>The page is zoomed in:</b> Zoom out the page to 100% (
+        <a href="https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages#w_zoom-in-and-out-of-a-website" target="_blank">Firefox</a>,
+        <a href="https://support.google.com/chrome/answer/96810?hl=en&co=GENIE.Platform%3DDesktop" target="_blank">Chrome</a>,
+        <a href="https://www.microsoft.com/en-us/edge/learning-center/change-default-zoom-level?form=MA13I2" target="_blank">Edge</a>,
+      <a href="https://support.apple.com/en-gb/HT207209" target="_blank">Safari</a>)
+      </li>
+      <li><b>Your browser window is too small:</b> Maximize your browser window (
+        <a href="https://www.digitalcitizen.life/minimize-maximize-apps-windows/#ftoc-heading-2" target="_blank">Windows</a>,
+        <a href="https://support.apple.com/en-gb/guide/mac-help/mchlp2469/mac#mchlp7b91593" target="_blank">MacOS</a>,
+        <a href="https://help.ubuntu.com/stable/ubuntu-help/shell-windows-maximize.html.en" target="_blank">Linux (Ubuntu)</a>)
+      </li>
+    </ol>
+    <p>If none of these solutions work that means your computer does not support this study. Therefore, I regret to say you will not be able to participate. Thank you for your time!</p>
   </div>
   <main class="container-fluid" id="content">
     <div class="row justify-content-center">

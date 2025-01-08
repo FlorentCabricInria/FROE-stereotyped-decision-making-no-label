@@ -102,7 +102,7 @@ function changeButton (e) {
       verifySize()
       break
     case 'fifthStageButton':
-      document.getElementById('titleExplanation').innerHTML = 'Grade groups:'
+      document.getElementById('titleExplanation').innerHTML = 'Grade groups'
       e.target.parentElement.hidden = true
       gradegroupCharts()
       document.getElementById('sixthStage').hidden = false
@@ -140,7 +140,7 @@ function changeButton (e) {
         performanceCharts()
 
         console.log('good')
-        document.getElementById('titleExplanation').innerHTML = 'Excellent! Now the performance:'
+        document.getElementById('titleExplanation').innerHTML = 'The performance'
 
       } else {
         console.log('not good')

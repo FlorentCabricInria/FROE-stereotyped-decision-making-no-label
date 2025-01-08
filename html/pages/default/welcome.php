@@ -17,7 +17,7 @@
     <p><strong>You can only participate using a computer screen, as a mobile phone's screen is too small to display the visualizations correctly.</strong></p>
     <p>After agreeing to the terms (next page), you will first complete a training session that will teach you how to read the data visualizations
       we will use in the study. <strong> This training ends with a comprehension check (you will have two chances to correctly answer the check).If you fail, according to <a href="https://researcher-help.prolific.com/hc/en-gb/articles/360009223553-Prolific-s-Attention-and-Comprehension-Check-Policy#h_01FBPJ5DZJHYHB5D2QMAK2V1SQ" target="_blank">
-    Prolific's policy </a>, we will ask you to return your submission immediately and you will not receive the payment. </strong>
+    Prolific's policy</a>, we will ask you to return your submission immediately and you will not receive the payment. </strong>
       Next, you will complete additional training steps that will introduce additional decision support options. Finally, you will be
       asked to make one salary decision based on a visualization, and to explain your decision. The study ends with a questionnaire designed
       by social psychologists. Completing the study from start to finish will require around twenty (20) minutes.</p>
@@ -26,8 +26,7 @@
       <a href="http://petra.isenberg.cc/wiki/pmwiki.php" target="_blank">Dr. Petra Isenberg</a> (Senior Research Scientist, Aviz Team, Inria Saclay).</p>
 
     You cannot navigate back to previous pages and your browser must enable pop-ups (by default).
-    <p>Click "Next" to check whether your browser allows pop-ups and proceed to informed consent. If you don't see a pop-up after clicking Next, please see your browser's user manual (
-    <a href="https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings">Firefox</a>,
+    <p>Click "Next" to check whether your browser allows pop-ups and proceed to informed consent. If you don't see a pop-up after clicking Next, please see your browser's user manual (<a href="https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings">Firefox</a>,
       <a href="https://support.microsoft.com/en-us/microsoft-edge/block-pop-ups-in-microsoft-edge-1d8ba4f8-f385-9a0b-e944-aa47339b6bb5#ID0EDH"> Edge</a>,
       <a href="https://support.google.com/chrome/answer/95472?hl=fr&co=GENIE.Platform%3DDesktop"> Chrome</a>,
       <a href="https://help.opera.com/en/latest/web-preferences/#popUps"> Opera</a>,

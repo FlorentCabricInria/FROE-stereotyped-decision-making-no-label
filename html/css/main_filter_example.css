@@ -224,7 +224,8 @@ li {
     margin-top: 40px;
 }
 
-button{
+.buttonNext{
+    margin: 1.5rem 0;
     height:50px;
 }
 

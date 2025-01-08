@@ -140,16 +140,16 @@ function createSteoreotypedVisualization2WLS(){
      *          #########################################################
      */
 
-    svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
-      .style('fill', '#3a33ff');
-    svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
-      .style('fill', '#ff33c9');
-    svg.append('text').attr('x', width - 80).attr('y', 135).text('Men')
-      .style('font-size', '1em')
-      .attr('alignment-baseline', 'middle');
-    svg.append('text').attr('x', width - 80).attr('y', 165).text('Women')
-      .style('font-size', '1em')
-      .attr('alignment-baseline', 'middle');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
+    //   .style('fill', '#3a33ff');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
+    //   .style('fill', '#ff33c9');
+    // svg.append('text').attr('x', width - 80).attr('y', 135).text('Men')
+    //   .style('font-size', '1em')
+    //   .attr('alignment-baseline', 'middle');
+    // svg.append('text').attr('x', width - 80).attr('y', 165).text('Women')
+    //   .style('font-size', '1em')
+    //   .attr('alignment-baseline', 'middle');
     svg.append('circle').attr('cx', width - 100).attr('cy', 190).attr('r', 2.75 *coefSize)
     svg.append('text').attr('x', width - 80).attr('y', 195).text('Low')
       .style('font-size', '1em')
@@ -437,8 +437,8 @@ function displayButton(){
   let btntoValidate = document.getElementById("btn_task-training-v2_6")
   btntoValidate.disabled = true;
 
-  btntoValidate.innerHTML = "Test the features by moving on the sliders before moving on to the next step";
-  btntoValidate.style.backgroundColor = "rgba(115,115,115,0.9)"
+  btntoValidate.innerHTML = "Test the features by moving the sliders before moving on to the next step";
+  btntoValidate.style.backgroundColor = "rgba(25,25,25,0.9)"
   btntoValidate.style.color = "rgba(255,255,255,0.9)"
 
 }
