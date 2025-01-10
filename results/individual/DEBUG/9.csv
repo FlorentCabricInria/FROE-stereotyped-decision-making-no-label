@@ -1,0 +1,10 @@
+participant_id,session_id,trial,fileUsed,something,something,condition,something,something,timeStamp,webpage_id
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,2,1736506481058,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,3,1736506482800,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,4,1736506501161,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,5,1736506501892,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,6,1736506510740,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,7,1736506535303,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,8,1736506538091,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,9,1736506574774,9
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,9,1736506583074,9

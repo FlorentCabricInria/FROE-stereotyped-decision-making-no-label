@@ -101,16 +101,16 @@ function createSteoreotypedVisualizationWomenLower(){
      *          ########### LEGEND
      *          #########################################################
      */
-    svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
-      .style('fill', '#3a33ffFF');
-    svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
-      .style('fill', '#ff33c9');
-    svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
-    svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
+    //   .style('fill', '#3a33ffFF');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
+    //   .style('fill', '#ff33c9');
+    // svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
+    // svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
 
  /*   let PosXTraining = [
       377.43105697378934 , 610.6109477126755 , 220.4375405775466 , 631.1149645919644 , 289.562279705711 , 202.3716488795456 , 4401597336 ,
@@ -217,16 +217,16 @@ function createSteoreotypedVisualizationMenLower() {
      *          ########### LEGEND
      *          #########################################################
      */
-    svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
-      .style('fill', '#3a33ffFF');
-    svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
-      .style('fill', '#ff33c9' );
-    svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
-    svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
+    //   .style('fill', '#3a33ffFF');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
+    //   .style('fill', '#ff33c9' );
+    // svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
+    // svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
 
     /** CREATE SALARIES MARK * */
     svg.append('g').selectAll('circle')
@@ -323,16 +323,16 @@ function createnonSteoreotypedVisualizationWomenLower(){
      *          ########### LEGEND
      *          #########################################################
      */
-    svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
-      .style('fill', '#00AA5A');
-    svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
-      .style('fill', '#AA9000');
-    svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
-    svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
+    //   .style('fill', '#00AA5A');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
+    //   .style('fill', '#AA9000');
+    // svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
+    // svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
 
     /**
      #########################################################
@@ -426,16 +426,16 @@ function createnonSteoreotypedVisualizationMenLower() {
      *          ########### LEGEND
      *          #########################################################
      */
-    svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
-      .style('fill', '#00AA5A');
-    svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
-      .style('fill', '#AA9000');
-    svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
-    svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
-      .style('font-size', '15px')
-      .attr('alignment-baseline', 'middle');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 130).attr('r', 6)
+    //   .style('fill', '#00AA5A');
+    // svg.append('circle').attr('cx', width - 100).attr('cy', 160).attr('r', 6)
+    //   .style('fill', '#AA9000');
+    // svg.append('text').attr('x', width - 80).attr('y', 130).text('Men')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
+    // svg.append('text').attr('x', width - 80).attr('y', 160).text('Women')
+    //   .style('font-size', '15px')
+    //   .attr('alignment-baseline', 'middle');
 
     /**
      #########################################################

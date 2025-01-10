@@ -1,0 +1,6 @@
+participant_id,condition,trial,filter,image,recognize,difficult
+DEBUG,DEBUG,0,362.csv,true,1,MenLower-NonStereotyped,0,2,1736505265131,1
+DEBUG,DEBUG,0,134.csv,true,1,MenLower-NonStereotyped,0,2,1736505959598,1
+DEBUG,DEBUG,0,152.csv,true,1,MenLower-Stereotyped,0,2,1736506276074,1
+DEBUG,DEBUG,0,296.csv,true,1,MenLower-Stereotyped,0,2,1736506367202,1
+DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,2,1736506481062,1

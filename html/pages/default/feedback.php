@@ -143,7 +143,32 @@
               }
               console.log(measurements)
             }
+            if ('save_trial_log' in config) {
+              var webpageData = {};
+              $('#experiment-info').children().each(function() {
+                webpageData[$(this).attr('id')] = $(this).val();
+              });
+              webpageData["timestamp_9"] = Date.now();
+              webpageData["pageNumber"] =9
+              if (config.save_trial_log) {
+                if (!excluded) {
+                  $.ajax({
+                    url: 'html/ajax/log_next_event.php',
+                    type: 'POST',
+                    data: JSON.stringify(webpageData),
+                    contentType: 'application/json',
+                    success: function (data) {
+                      console.log('welcome save.')
+                      // console.log(measurements['condition'])
+                      // $(':button').hide()
+                      // window.onbeforeunload = null
+                    }
+                  })
+                }
+              }
+            }
           })
+
         </script>
     </div>
 

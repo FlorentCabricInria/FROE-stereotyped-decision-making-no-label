@@ -7,7 +7,7 @@
 <!--    <div id="scroll-warning2" class="alert alert-warning alert-dismissible" hidden>-->
 <!--      <span>Some content may be off-screen. Please scroll down to see the rest of the content.</span>-->
 <!--    </div>-->
-      The last piece of data that distinguishes employees in your company is their gender:
+      Finally, in the visualization you will see, the gender of each employee will be represented using colors.
       <ul>
     <?php
           $extension = array(".csv");
@@ -16,14 +16,14 @@
           $mod = $cond % 4;
           switch ($mod){
             case 0: case 1:?>
-    <li style=" margin:0px"> <span style="font-weight: bold; color: #ff33c9;" > Women </span>are represented in <span style="font-weight: bold; color: #ff33c9;">Pink </span> </li>
-    <li style=" margin:0px"> <span style="font-weight: bold; color: #3a33ff; " > Men </span>are represented in <span style="font-weight: bold; color: #3a33ff;">Blue</span>  </li>
+<!--    <li style=" margin:0px"> <span style="font-weight: bold; color: #ff33c9;" > Women </span>are represented in <span style="font-weight: bold; color: #ff33c9;">Pink </span> </li>-->
+<!--    <li style=" margin:0px"> <span style="font-weight: bold; color: #3a33ff; " > Men </span>are represented in <span style="font-weight: bold; color: #3a33ff;">Blue</span>  </li>-->
     <?php
     break;
     case 2: case 3:
     ?>
-    <li style=" margin:0px"> <span style="font-weight: bold; color: #AA9000;" > Women </span>are represented in <span style="font-weight: bold; color: #AA9000;"> Brown </span> </li>
-    <li style=" margin:0px"> <span style="font-weight: bold; color: #00AA5A;" > Men </span>are represented in <span style="font-weight: bold; color: #00AA5A;"> Green </span> </li>
+<!--    <li style=" margin:0px"> <span style="font-weight: bold; color: #AA9000;" > Women </span>are represented in <span style="font-weight: bold; color: #AA9000;"> Brown </span> </li>-->
+<!--    <li style=" margin:0px"> <span style="font-weight: bold; color: #00AA5A;" > Men </span>are represented in <span style="font-weight: bold; color: #00AA5A;"> Green </span> </li>-->
     <?php
     break;
     }
@@ -65,6 +65,30 @@
       }
 
     })
+    if ('save_trial_log' in config) {
+      var webpageData = {};
+      $('#experiment-info').children().each(function() {
+        webpageData[$(this).attr('id')] = $(this).val();
+      });
+      webpageData["timestamp_4"] = Date.now();
+      webpageData["pageNumber"] =4
+      if (config.save_trial_log) {
+        if (!excluded) {
+          $.ajax({
+            url: 'html/ajax/log_next_event.php',
+            type: 'POST',
+            data: JSON.stringify(webpageData),
+            contentType: 'application/json',
+            success: function (data) {
+              console.log('welcome save.')
+              // console.log(measurements['condition'])
+              // $(':button').hide()
+              // window.onbeforeunload = null
+            }
+          })
+        }
+      }
+    }
   </script>
 </div>
 
