@@ -44,11 +44,11 @@
 
             <p><strong>Project manager(s):</strong> <a href="http://petra.isenberg.cc/wiki/pmwiki.php" target="_blank">Dr. Petra Isenberg</a> (Senior Research Scientist, Aviz Team, Inria Saclay)<br />
                 <strong>Other scientists involved: </strong>
-<a href="https://florentcabric.com/" target="_blank">Dr. Florent Cabric</a> (Postdoctoral researcher, Aviz Team, Inria Saclay, Université Paris-Saclay)<br />
+<a href="https://florentcabric.com/" target="_blank">Dr. Florent Cabric</a> (Associate professor, Aviz Team, Inria Saclay, Université Paris-Saclay)<br />
 
            <strong>Project team and Inria Research Centre:</strong> Aviz Team - Inria Saclay<br /><strong>Project name:</strong> Comparison of visualization-aided decision-making processes</p>
 
-            YYou are invited to take part in this study, whose purpose is to understand how visualizations can support decision making.
+            You are invited to take part in this study, whose purpose is to understand how visualizations can support decision making.
             The <a href="http://www.aviz.fr"> Aviz </a> team conducts research in the field of visualization and the results of this study will help us to improve visualization design.</p>
 
             <p>This study will take place <strong>online</strong>. </p>
@@ -147,7 +147,7 @@
                 <div align="left" style="max-width: 50%; display: block; margin-left: 0; margin-right: auto; padding-right: 10px">
                     <p><strong>Dr. Florent Cabric</strong></p>
 
-                    <p>Postdoctoral researcher</p>
+                    <p>Associate professor</p>
 
                     <p><a href="https://www.aviz.fr/Main/HomePage" target="_blank">AVIZ</a> Research Team</p>
 
