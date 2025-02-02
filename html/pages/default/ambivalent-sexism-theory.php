@@ -152,7 +152,7 @@
             </tbody>
         </table>
         <div class="buttons" id="buttonForm">
-            <button class="buttonNext" id="submitScaleButton" class="submit">Submit</button>
+            <button class="buttonNext" id="submitScaleButton" class="submit" style="margin-left: 1em;">Submit</button>
             <br>
             <span id="ErrorMessageScale" style="color: darkred"></span>
         </div>

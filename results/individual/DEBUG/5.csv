@@ -1,2 +1,9 @@
 participant_id,session_id,trial,fileUsed,something,something,condition,something,something,timeStamp,webpage_id
 DEBUG,DEBUG,0,172.csv,true,1,MenLower-Stereotyped,0,6,1736506510739,5
+DEBUG,DEBUG,0,1.csv,true,1,WomenLower-Stereotyped,0,6,1738487858036,5
+DEBUG,DEBUG,0,1.csv,true,1,WomenLower-Stereotyped,0,6,1738488102167,5
+DEBUG,DEBUG,0,1.csv,true,1,WomenLower-Stereotyped,0,6,1738488303350,5
+DEBUG,DEBUG,0,2.csv,true,1,MenLower-NonStereotyped,0,6,1738489044900,5
+DEBUG,DEBUG,0,2.csv,true,1,MenLower-NonStereotyped,0,6,1738489358025,5
+DEBUG,DEBUG,0,3.csv,true,1,WomenLower-NonStereotyped,0,6,1738489521066,5
+DEBUG,DEBUG,0,4.csv,true,1,MenLower-Stereotyped,0,6,1738489567990,5

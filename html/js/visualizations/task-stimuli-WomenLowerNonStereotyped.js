@@ -102,7 +102,7 @@ d3.csv('./html/js/visualizations/c.csv').then((data) => {
   // svg.append('text').attr('x', width - 80).attr('y', 165).text('Women')
   //   .style('font-size', '1em')
   //   .attr('alignment-baseline', 'middle');
-  svg.append('text').attr('x', width - 110).attr('y', 170).text('Performance:')
+  svg.append('text').attr('x', width - 120).attr('y', 170).text('Performance:')
     .style('font-size', '1.15em')
     .attr('alignment-baseline', 'middle');
   svg.append('circle').attr('cx', width - 100).attr('cy', 190).attr('r', 2.75 *coefSize)
